@@ -1,0 +1,89 @@
+/*Version 1.0 */
+#diycTopContainer {
+  border: 1px #dedede solid;
+  padding: 0.5em;
+  height: 600px;
+  width: 960px ;
+  font-weight: normal;
+  overflow: hidden;
+  z-index: 1000;
+}
+#diycWorkArea { 
+  width: 600px;
+  height: 400px;
+  background-repeat: no-repeat;
+  border: 1px #dedede solid;
+}
+#diycCropper { 
+  border: 2px dashed #0000ff; 
+  position: absolute;
+  width:400px;
+  height:400px;
+  z-index:100;
+  background-color:rgba(200,200,200,0.5);
+  display: none;
+}
+#diycInfo {
+  float: left;
+  clear: both;
+  width: 600px;
+}
+#diycBT63 {
+  display: none;
+}
+#diycHeader {
+  margin-top: 1em;
+  margin-bottom: 2em;
+ 
+  display: block;
+}
+#diycCropMessage {
+  width: 300px;
+  display: none;
+  background-color: #ff3333;
+  border: 2px #dedede solid;
+  border-radius: 10px;
+  padding: 1em;
+  font-size: 0.75em;
+}
+#diycMainImage {
+  width:400px;
+  height:400px;
+   z-index:99;
+}
+#diycMainAccordiontop {
+  height: 350px;
+  width: 320px; 
+  float: right;
+}
+#diycMainAccordion { 
+  width: 320px; 
+  float: right;
+}
+#diycMainAccordion .ui-accordion-header {
+  font-size: 1em;
+  padding:0.2em;
+}
+#diycMainAccordion p {
+  margin:.5em; 
+}
+.no-close .ui-dialog-titlebar-close {display: none }
+.ui-icon-gripsmall-diagonal-se { background-position: -80px -224px; }
+
+.diycProgress { position:relative; width:400px; border: 1px solid #ddd; padding: 1px; border-radius: 3px; }
+.diycBar { background-color: #B4F5B4; width:0%; height:20px; border-radius: 3px; }
+.diycPercent { position:absolute; display:inline-block; top:3px; left:48%; }
+.diycImgGal { cursor: pointer; }
+.diycTF1 {
+  font-size: 0.75em;
+  padding: 1em;
+}
+#diycFileError1 {
+  display:none;
+}
+#diycFileError2 {
+  display:none;
+}
+#diycCommError {
+  display:none;
+}
